@@ -8,6 +8,6 @@ def polygon(t, length, n):
 bob = turtle.Turtle()
 print(bob)
 
-polygon(bob, 100, 6)
+polygon(bob, length = 70, n = 7)
 
 turtle.mainloop()
