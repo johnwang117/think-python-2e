@@ -8,6 +8,6 @@ def square(t, length):
 bob = turtle.Turtle()
 print(bob)
 
-square(bob, 300)
+square(bob, 100)
 
 turtle.mainloop()
