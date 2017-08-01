@@ -1,12 +1,9 @@
-# more to be done
 
-def count(word, letter):
+def count(word, letters):
 	count = 0
-	index = 0
 	for letter in word:
-		if letter == word[index]:
+		if letters == letter:
 			count = count + 1
-		index = index + 1
 	print(count)
 
 count('banana', 'a')
